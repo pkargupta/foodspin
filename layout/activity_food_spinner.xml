@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true"
+    android:background="#fff">
+
+    <ImageView
+        android:background="#000"
+        android:id="@+id/imageView_ring"
+        android:scaleType="matrix"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:src="@drawable/graphic_ring"></ImageView>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/foodtype"
+        android:background="#fff"
+        android:textColor="#000"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="25dp"
+        android:hint="@string/typehint"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="25dp"
+        android:maxLines="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/foodtype"
+        android:id="@+id/foodtypelabel"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:textColor="#fff"
+        android:layout_gravity="left|top"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:background="@drawable/spin" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/getnum"
+        android:id="@+id/getnum"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="20dp"
+        android:background="#0080eb"
+        android:textColor="#fff"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+</FrameLayout>
